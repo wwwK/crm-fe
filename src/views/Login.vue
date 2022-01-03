@@ -23,7 +23,7 @@ export default {
                 if (r.code == 200) {
                     console.log("!!!!!");
                     sessionStorage.setItem("user","ok");
-                    this.$router.push("/Users");
+                    this.$router.push("/Home");
                     return;
                 }
                 this.username = this.password = '';
