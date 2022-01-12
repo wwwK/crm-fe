@@ -73,6 +73,18 @@
               <a href="javascript:;">click menu item</a>
             </li>
             <li class="layui-nav-item"><a href="">the links</a></li>
+
+            <li class="layui-nav-item">
+              <a href="javascript:;">服务管理</a>
+              <dl class="layui-nav-child">
+                <dd><a href=""><router-link to="/Home/Service">服务创建</router-link></a></dd>
+                <dd><a href=""><router-link to="/Home/ServiceDistribute">服务分配</router-link></a></dd>
+                <dd><a href=""><router-link to="/Home/ServiceHandle">服务处理</router-link></a></dd>
+                <dd><a href=""><router-link to="/Home/ServiceFeedback">服务反馈</router-link></a></dd>
+                <dd><a href=""><router-link to="/Home/ServiceArchive">服务归档</router-link></a></dd>
+              </dl>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -80,7 +92,7 @@
       <div class="layui-body">
         <!-- 内容主体区域 -->
         <div style="padding: 15px">
-          内容主体区域。记得修改 layui.css 和 js 的路径
+          <router-view></router-view>
         </div>
       </div>
 

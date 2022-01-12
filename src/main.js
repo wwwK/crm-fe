@@ -12,8 +12,8 @@ import 'ztree'
 import 'ztree/css/zTreeStyle/zTreeStyle.css'
 
 //layui
-import '../node_modules/layui/dist/css/layui.css'
-import layui from 'layui';
+// import '../node_modules/layui/dist/css/layui.css'
+// import layui from 'layui';
 
 axios.defaults.baseURL = "http://localhost:8888/"
 //让axios发送请求的时候，自动携带cookie（默认不携带cookie）
